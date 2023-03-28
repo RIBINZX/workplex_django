@@ -1,0 +1,42 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="zxx">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Themezhub" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+        <title>Workplex - Find jobs easly</title>
+		 
+        <!-- Custom CSS -->
+        <link href="{% static 'web/css/styles.css' %}" rel="stylesheet">
+		
+    </head>
+	
+    <body>
+
+		{% include 'web/partials/header.html' %}
+		{% block content %}
+		{% endblock content %}
+		{% include 'web/partials/footer.html' %}
+
+
+
+		<!-- All Jquery -->
+		<!-- ============================================================== -->
+		<script src="{% static 'web/js/jquery.min.js' %}"></script>
+		<script src="{% static 'web/js/popper.min.js' %}"></script>
+		<script src="{% static 'web/js/bootstrap.min.js' %}"></script>
+		<script src="{% static 'web/js/slick.js' %}"></script>
+		<script src="{% static 'web/js/slider-bg.js' %}"></script>
+		<script src="{% static 'web/js/smoothproducts.js' %}"></script>
+		<script src="{% static 'web/js/snackbar.min.js' %}"></script>
+		<script src="{% static 'web/js/jQuery.style.switcher.js' %}"></script>
+		<script src="{% static 'web/js/custom.js' %}"></script>
+		<!-- ============================================================== -->
+		<!-- This page plugins -->
+		<!-- ============================================================== -->			
+
+	</body>
+</html> 
